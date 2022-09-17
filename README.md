@@ -29,4 +29,13 @@ Produce and Consume
 ![image](https://user-images.githubusercontent.com/69865283/190843879-261e5cc2-9823-41e9-9215-f3dc31d28829.png)
 
 
+## Consumer groups
+
+![image](https://user-images.githubusercontent.com/69865283/190849258-56dfd4cc-d210-4238-b963-5332a4e4b1be.png)
+
+
+![image](https://user-images.githubusercontent.com/69865283/190849304-3b13e598-e084-4352-b3d3-6d130749151d.png)
+
+
+
 
