@@ -20,6 +20,13 @@ kafka-server-start.sh ~/Desktop/kafka_2.13-3.2.1/config/server.properties
 
 ![image](https://user-images.githubusercontent.com/69865283/190843370-340ce79e-76ff-459a-998a-a715ca2c61d3.png)
 
+At first topic is not created but once I have run the Consumer code then the topic is created. The Consumer or the Producer will look for the topic in kafka if not present then they will create one.
+
+![image](https://user-images.githubusercontent.com/69865283/190843669-7510d552-599f-43b4-96af-b6c92def1b1d.png)
+
+Produce and Consume
+
+![image](https://user-images.githubusercontent.com/69865283/190843879-261e5cc2-9823-41e9-9215-f3dc31d28829.png)
 
 
 
