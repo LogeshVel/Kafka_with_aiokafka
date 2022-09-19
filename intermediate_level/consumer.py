@@ -6,7 +6,7 @@ import subprocess, os, sys
 t = PrettyTable()
 
 
-async def consume_msg():
+async def consume_msg(group_id, topics):
     t.field_names = ["Topic", "Partition", "Offset", "Key", "Value", "Timestamp ms", "Consumer Group"]
     if group_id is None or group_id.lower() == "none":
         consumer = AIOKafkaConsumer(bootstrap_servers='localhost:9092',auto_offset_reset="earliest")
@@ -36,7 +36,7 @@ if __name__ == "__main__":
             sys.exit(1)
         group_id = sys.argv[1]
         topics = sys.argv[2:]
-        asyncio.run(consume_msg())
+        asyncio.run(consume_msg(group_id, topics))
     except KeyboardInterrupt as kint:
         print("Stop Consuming")
 
